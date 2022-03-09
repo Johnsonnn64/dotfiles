@@ -1,0 +1,899 @@
+time 1645334058
+new [description:"SS video" entry:"1645334058" modified:"1645334058" status:"pending" uuid:"b8990371-c05f-42ce-a14e-1785b6a85088"]
+---
+time 1645334205
+old [description:"SS video" entry:"1645334058" modified:"1645334058" status:"pending" uuid:"b8990371-c05f-42ce-a14e-1785b6a85088"]
+new [description:"SS video" end:"1645334203" entry:"1645334058" modified:"1645334205" status:"deleted" uuid:"b8990371-c05f-42ce-a14e-1785b6a85088"]
+---
+time 1645334803
+new [description:"taskwarrior task 1" entry:"1645334803" modified:"1645334803" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+---
+time 1645335443
+old [description:"taskwarrior task 1" entry:"1645334803" modified:"1645334803" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+new [annotation_1645335443:"this is a test" description:"taskwarrior task 1" entry:"1645334803" modified:"1645335443" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+---
+time 1645336464
+old [annotation_1645335443:"this is a test" description:"taskwarrior task 1" entry:"1645334803" modified:"1645335443" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+new [annotation_1645335443:"This is test 2" annotation_1645336385:"This is test 3" description:"taskwarrior task 1" entry:"1645334803" modified:"1645336464" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+---
+time 1645336939
+new [description:"this is test task 1 for task warrior" entry:"1645336939" modified:"1645336939" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645337145
+new [description:"this is a done task" end:"1645337145" entry:"1645337145" modified:"1645337145" status:"completed" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645337145
+old [description:"this is test task 1 for task warrior" entry:"1645336939" modified:"1645336939" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+new [description:"this is test task 2 for task warrior" entry:"1645336939" modified:"1645337145" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645337210
+old [description:"this is test task 2 for task warrior" entry:"1645336939" modified:"1645337145" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+new [description:"this is test task 3 for task warrior" entry:"1645336939" modified:"1645337210" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645337228
+old [annotation_1645335443:"This is test 2" annotation_1645336385:"This is test 3" description:"taskwarrior task 1" entry:"1645334803" modified:"1645336464" status:"pending" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+new [annotation_1645335443:"This is test 2" annotation_1645336385:"This is test 3" description:"taskwarrior task 1" end:"1645337226" entry:"1645334803" modified:"1645337228" status:"deleted" uuid:"637b6f33-216a-4592-af03-0300cc65e8f0"]
+---
+time 1645337243
+old [description:"this is a done task" end:"1645337145" entry:"1645337145" modified:"1645337145" status:"completed" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+new [description:"this is a done task" entry:"1645337145" modified:"1645337243" status:"pending" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645337261
+new [description:"this task isn't done" entry:"1645337261" modified:"1645337261" status:"pending" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+---
+time 1645345515
+old [description:"this is a done task" entry:"1645337145" modified:"1645337243" status:"pending" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+new [description:"this is a done task" end:"1645345515" entry:"1645337145" modified:"1645345515" status:"completed" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645345943
+old [description:"this is a done task" end:"1645345515" entry:"1645337145" modified:"1645345515" status:"completed" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+new [description:"this is a done task" end:"1645345515" entry:"1645337145" modified:"1645345943" status:"deleted" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645345945
+old [description:"this is test task 3 for task warrior" entry:"1645336939" modified:"1645337210" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+new [description:"this is test task 3 for task warrior" end:"1645345945" entry:"1645336939" modified:"1645345945" status:"deleted" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645345946
+old [description:"this task isn't done" entry:"1645337261" modified:"1645337261" status:"pending" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+new [description:"this task isn't done" end:"1645345946" entry:"1645337261" modified:"1645345946" status:"deleted" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+---
+time 1645346057
+old [description:"this is a done task" end:"1645345515" entry:"1645337145" modified:"1645345943" status:"deleted" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+new [description:"this is a done task" entry:"1645337145" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645346057
+old [description:"this is test task 3 for task warrior" end:"1645345945" entry:"1645336939" modified:"1645345945" status:"deleted" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+new [description:"this is test task 3 for task warrior" entry:"1645336939" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645346057
+old [description:"this task isn't done" end:"1645345946" entry:"1645337261" modified:"1645345946" status:"deleted" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+new [description:"this task isn't done" entry:"1645337261" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+---
+time 1645352056
+new [description:"write a diary" end:"1645352056" entry:"1645352056" modified:"1645352056" status:"completed" tags:"diary" tags_diary:"x" uuid:"46bc0cb8-d53a-4086-a41d-c0ff2990537d"]
+---
+time 1645352056
+new [description:"figure out some way to use it as schedule" entry:"1645352056" modified:"1645352056" status:"pending" tags:"diary" tags_diary:"x" uuid:"a974751b-22bd-4deb-838f-3f1d07dbb83e"]
+---
+time 1645364885
+old [description:"this task isn't done" entry:"1645337261" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+new [description:"this task isn't done" end:"1645364875" entry:"1645337261" modified:"1645364885" status:"deleted" tags:"test" tags_test:"x" uuid:"f1995d59-0f86-4ae9-a723-e6f5831ab81e"]
+---
+time 1645364885
+old [description:"this is test task 3 for task warrior" entry:"1645336939" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+new [description:"this is test task 3 for task warrior" end:"1645364885" entry:"1645336939" modified:"1645364885" status:"deleted" tags:"test" tags_test:"x" uuid:"1cb52a18-19f8-4471-8283-7c9bd4ed5ee0"]
+---
+time 1645364885
+old [description:"this is a done task" entry:"1645337145" modified:"1645346057" status:"pending" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+new [description:"this is a done task" end:"1645364885" entry:"1645337145" modified:"1645364885" status:"deleted" tags:"test" tags_test:"x" uuid:"923965a5-7e7d-4128-bc6f-7fba4b1d3738"]
+---
+time 1645364885
+old [description:"figure out some way to use it as schedule" entry:"1645352056" modified:"1645352056" status:"pending" tags:"diary" tags_diary:"x" uuid:"a974751b-22bd-4deb-838f-3f1d07dbb83e"]
+new [description:"figure out some way to use it as schedule" end:"1645364885" entry:"1645352056" modified:"1645364885" status:"deleted" tags:"diary" tags_diary:"x" uuid:"a974751b-22bd-4deb-838f-3f1d07dbb83e"]
+---
+time 1645366305
+new [description:"Write a diary" end:"1645366305" entry:"1645366305" modified:"1645366305" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"b99d62f0-ca53-4646-9fd5-92839d962d3f"]
+---
+time 1645366305
+new [description:"Make minimal website for daily subject" entry:"1645366305" modified:"1645366305" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645366310
+new [description:"Write a diary" end:"1645366310" entry:"1645366310" modified:"1645366310" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"a198ca8a-11a5-44f5-9cce-6ddab56ba8a1"]
+---
+time 1645366310
+new [description:"Make minimal website for daily subject" entry:"1645366310" modified:"1645366310" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+---
+time 1645366325
+old [description:"Make minimal website for daily subject" entry:"1645366305" modified:"1645366305" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"Make minimal website for daily subject" due:"1645971125" entry:"1645366305" modified:"1645366325" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645366360
+old [description:"Make minimal website for daily subject" entry:"1645366310" modified:"1645366310" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+new [description:"Make minimal website for daily subject" end:"1645366359" entry:"1645366310" modified:"1645366360" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+---
+time 1645366367
+old [description:"Make minimal website for daily subject" end:"1645366359" entry:"1645366310" modified:"1645366360" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+new [description:"Make minimal website for daily subject" entry:"1645366310" modified:"1645366367" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+---
+time 1645366367
+old [description:"Make minimal website for daily subject" due:"1645971125" entry:"1645366305" modified:"1645366325" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645366367" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645366425
+new [description:"Make minimal home website" entry:"1645366425" modified:"1645366425" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"c3ba7e66-e6fd-4a25-9257-1d9431c3c0dd"]
+---
+time 1645366630
+new [description:"Fix bug (task overwritten)" entry:"1645366630" modified:"1645366630" status:"pending" uuid:"38014a48-13db-4cc6-a1c2-79de0bec283a"]
+---
+time 1645366827
+new [description:"test done" end:"1645366827" entry:"1645366827" modified:"1645366827" status:"completed" uuid:"85e9018d-2c1c-408a-8cad-6200c252af7c"]
+---
+time 1645366949
+old [description:"Make minimal website for daily subject" entry:"1645366310" modified:"1645366367" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+new [description:"Make minimal website for daily subject" end:"1645366949" entry:"1645366310" modified:"1645366949" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"cc170ea8-4dec-488f-9bdc-ef70b3763ab7"]
+---
+time 1645366950
+old [description:"Make minimal home website" entry:"1645366425" modified:"1645366425" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"c3ba7e66-e6fd-4a25-9257-1d9431c3c0dd"]
+new [description:"Make minimal home website" end:"1645366950" entry:"1645366425" modified:"1645366950" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"c3ba7e66-e6fd-4a25-9257-1d9431c3c0dd"]
+---
+time 1645366954
+old [description:"Write a diary" end:"1645366305" entry:"1645366305" modified:"1645366305" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"b99d62f0-ca53-4646-9fd5-92839d962d3f"]
+new [description:"Write a diary" end:"1645366305" entry:"1645366305" modified:"1645366954" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"b99d62f0-ca53-4646-9fd5-92839d962d3f"]
+---
+time 1645366955
+old [description:"Write a diary" end:"1645366310" entry:"1645366310" modified:"1645366310" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"a198ca8a-11a5-44f5-9cce-6ddab56ba8a1"]
+new [description:"Write a diary" end:"1645366310" entry:"1645366310" modified:"1645366955" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"a198ca8a-11a5-44f5-9cce-6ddab56ba8a1"]
+---
+time 1645366969
+old [description:"test done" end:"1645366827" entry:"1645366827" modified:"1645366827" status:"completed" uuid:"85e9018d-2c1c-408a-8cad-6200c252af7c"]
+new [description:"test done" end:"1645366827" entry:"1645366827" modified:"1645366969" status:"deleted" uuid:"85e9018d-2c1c-408a-8cad-6200c252af7c"]
+---
+time 1645366973
+old [description:"Fix bug (task overwritten)" entry:"1645366630" modified:"1645366630" status:"pending" uuid:"38014a48-13db-4cc6-a1c2-79de0bec283a"]
+new [description:"Fix bug (task overwritten)" end:"1645366973" entry:"1645366630" modified:"1645366973" status:"completed" uuid:"38014a48-13db-4cc6-a1c2-79de0bec283a"]
+---
+time 1645367307
+new [description:"test" entry:"1645367307" modified:"1645367307" status:"pending" uuid:"386d7028-fab7-4926-9d2c-6393dbbe1f73"]
+---
+time 1645367545
+old [description:"Fix bug (task overwritten)" end:"1645366973" entry:"1645366630" modified:"1645366973" status:"completed" uuid:"38014a48-13db-4cc6-a1c2-79de0bec283a"]
+new [description:"Fix bug (task overwritten)" end:"1645366973" entry:"1645366630" modified:"1645367545" status:"deleted" uuid:"38014a48-13db-4cc6-a1c2-79de0bec283a"]
+---
+time 1645367546
+old [description:"test" entry:"1645367307" modified:"1645367307" status:"pending" uuid:"386d7028-fab7-4926-9d2c-6393dbbe1f73"]
+new [description:"test" end:"1645367546" entry:"1645367307" modified:"1645367546" status:"deleted" uuid:"386d7028-fab7-4926-9d2c-6393dbbe1f73"]
+---
+time 1645367637
+new [description:"test1" entry:"1645367637" modified:"1645367637" status:"pending" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+---
+time 1645367637
+new [description:"test2" entry:"1645367637" modified:"1645367637" status:"pending" uuid:"d2215b76-ba34-496f-9928-eb7d819652a9"]
+---
+time 1645367640
+old [description:"test1" entry:"1645367637" modified:"1645367637" status:"pending" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+new [description:"test1" end:"1645367640" entry:"1645367637" modified:"1645367640" status:"completed" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+---
+time 1645367693
+old [description:"test1" end:"1645367640" entry:"1645367637" modified:"1645367640" status:"completed" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+new [description:"test1" entry:"1645367637" modified:"1645367693" status:"pending" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+---
+time 1645367700
+old [description:"test1" entry:"1645367637" modified:"1645367693" status:"pending" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+new [description:"test1" end:"1645367700" entry:"1645367637" modified:"1645367700" status:"completed" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+---
+time 1645367765
+old [description:"test2" entry:"1645367637" modified:"1645367637" status:"pending" uuid:"d2215b76-ba34-496f-9928-eb7d819652a9"]
+new [description:"test2" end:"1645367765" entry:"1645367637" modified:"1645367765" status:"completed" uuid:"d2215b76-ba34-496f-9928-eb7d819652a9"]
+---
+time 1645367791
+old [description:"test1" end:"1645367700" entry:"1645367637" modified:"1645367700" status:"completed" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+new [description:"test1" end:"1645367700" entry:"1645367637" modified:"1645367791" status:"deleted" uuid:"18b15da9-8bd3-4187-b60e-2acacd04edf4"]
+---
+time 1645367792
+old [description:"test2" end:"1645367765" entry:"1645367637" modified:"1645367765" status:"completed" uuid:"d2215b76-ba34-496f-9928-eb7d819652a9"]
+new [description:"test2" end:"1645367765" entry:"1645367637" modified:"1645367792" status:"deleted" uuid:"d2215b76-ba34-496f-9928-eb7d819652a9"]
+---
+time 1645367794
+old [description:"write a diary" end:"1645352056" entry:"1645352056" modified:"1645352056" status:"completed" tags:"diary" tags_diary:"x" uuid:"46bc0cb8-d53a-4086-a41d-c0ff2990537d"]
+new [description:"write a diary" end:"1645352056" entry:"1645352056" modified:"1645367794" status:"deleted" tags:"diary" tags_diary:"x" uuid:"46bc0cb8-d53a-4086-a41d-c0ff2990537d"]
+---
+time 1645367927
+old [description:"Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645366367" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"(Diary )Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645367927" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645367956
+old [description:"(Diary )Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645367927" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"(Diary 2022-02-20 Sun 10:38 PM)Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645367956" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368233
+old [description:"(Diary 2022-02-20 Sun 10:38 PM)Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645367956" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368233" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368293
+old [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368233" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" end:"1645368293" entry:"1645366305" modified:"1645368293" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368297
+old [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" end:"1645368293" entry:"1645366305" modified:"1645368293" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368297" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368305
+old [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368297" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" end:"1645368305" entry:"1645366305" modified:"1645368305" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368307
+old [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" end:"1645368305" entry:"1645366305" modified:"1645368305" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368307" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368384
+new [description:"test1" entry:"1645368384" modified:"1645368384" status:"pending" uuid:"03277d2a-bde2-4a91-99e4-bd2ad174027c"]
+---
+time 1645368468
+new [description:"&open;2022-02-20&close; Have your vimwiki configured#03277d2a" entry:"1645368468" modified:"1645368468" status:"pending" uuid:"e62f27ed-dbaf-47ce-aa67-4d118a84348c"]
+---
+time 1645368475
+old [description:"test1" entry:"1645368384" modified:"1645368384" status:"pending" uuid:"03277d2a-bde2-4a91-99e4-bd2ad174027c"]
+new [description:"test1" end:"1645368475" entry:"1645368384" modified:"1645368475" status:"deleted" uuid:"03277d2a-bde2-4a91-99e4-bd2ad174027c"]
+---
+time 1645368477
+old [description:"&open;2022-02-20&close; Have your vimwiki configured#03277d2a" entry:"1645368468" modified:"1645368468" status:"pending" uuid:"e62f27ed-dbaf-47ce-aa67-4d118a84348c"]
+new [description:"&open;2022-02-20&close; Have your vimwiki configured#03277d2a" end:"1645368477" entry:"1645368468" modified:"1645368477" status:"completed" uuid:"e62f27ed-dbaf-47ce-aa67-4d118a84348c"]
+---
+time 1645368543
+old [description:"&open;Diary 2022-02-20&close; Make minimal website for daily subject" due:"1645971120" entry:"1645366305" modified:"1645368307" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645368543" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368639
+new [description:"Nerd based color scheme" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+---
+time 1645368639
+new [description:"School Schedule" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"81eb307e-bc7d-418f-ab50-ceb891959f8a"]
+---
+time 1645368639
+new [description:"Links to frequently used website" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"88aa26ce-7744-4324-bf55-505ac76b717a"]
+---
+time 1645368639
+new [description:"Clock" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+---
+time 1645368639
+old [description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645368543" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645368780
+old [description:"Clock" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+new [description:"Clock" end:"1645368780" entry:"1645368639" modified:"1645368780" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+---
+time 1645368817
+old [description:"Clock" end:"1645368780" entry:"1645368639" modified:"1645368780" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+new [description:"Clock" entry:"1645368639" modified:"1645368817" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+---
+time 1645369018
+old [description:"&open;2022-02-20&close; Have your vimwiki configured#03277d2a" end:"1645368477" entry:"1645368468" modified:"1645368477" status:"completed" uuid:"e62f27ed-dbaf-47ce-aa67-4d118a84348c"]
+new [description:"&open;2022-02-20&close; Have your vimwiki configured" end:"1645368477" entry:"1645368468" modified:"1645369018" status:"completed" uuid:"e62f27ed-dbaf-47ce-aa67-4d118a84348c"]
+---
+time 1645369183
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645369183" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1645369222
+old [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645369183" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" due:"1645372800" entry:"1645369183" modified:"1645369222" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1645369241
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645891200" entry:"1645366305" modified:"1645369241" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645369243
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645891200" entry:"1645366305" modified:"1645369241" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645369243" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645410171
+new [description:"Science Research Paper" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645410171
+new [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645410171
+new [description:"Math calculate land" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645410171
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645410286
+old [description:"Nerd based color scheme" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+new [description:"Nord based color scheme" entry:"1645368639" modified:"1645410286" status:"pending" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+---
+time 1645410289
+old [description:"Nord based color scheme" entry:"1645368639" modified:"1645410286" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+new [description:"Nerd based color scheme" entry:"1645368639" modified:"1645410289" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+---
+time 1645410318
+old [description:"Nerd based color scheme" entry:"1645368639" modified:"1645410289" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+new [description:"Nord based color scheme" entry:"1645368639" modified:"1645410318" status:"pending" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+---
+time 1645410466
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645410466" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412443
+old [description:"Math calculate land" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land" entry:"1645410171" modified:"1645412443" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645412453
+old [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645412453" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645412564
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1645971120" entry:"1645366305" modified:"1645369243" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646622164" entry:"1645366305" modified:"1645412564" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645412569
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646622164" entry:"1645366305" modified:"1645412564" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646622120" entry:"1645366305" modified:"1645412569" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645412624
+old [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" due:"1645372800" entry:"1645369183" modified:"1645369222" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645412624" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1645412695
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645410466" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412695" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412697
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412695" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645412697" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412719
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"Project Based Learning" entry:"1645410171" modified:"1645412697" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412719" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412727
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412719" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" entry:"1645410171" modified:"1645412727" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412728
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" entry:"1645410171" modified:"1645412727" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412728" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412733
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close;Project Based Learning" entry:"1645410171" modified:"1645412728" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" entry:"1645410171" modified:"1645412733" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412799
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" entry:"1645410171" modified:"1645412733" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"23:59" due:"1645804800" entry:"1645410171" modified:"1645412799" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412839
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"23:59" due:"1645804800" entry:"1645410171" modified:"1645412799" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Porject Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412839" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412841
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Porject Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412839" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"23:59" due:"1645804800" entry:"1645410171" modified:"1645412841" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412906
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"23:59" due:"1645804800" entry:"1645410171" modified:"1645412841" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412906" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412933
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412906" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645412933" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412935
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645412933" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412935" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645412954
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645804800" entry:"1645410171" modified:"1645412935" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645412954" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645413077
+old [description:"Math calculate land" entry:"1645410171" modified:"1645412443" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land" due:"1646063940" entry:"1645410171" modified:"1645413077" status:"pending" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645413141
+old [description:"Science Research Paper" entry:"1645410171" modified:"1645410171" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645413141" status:"pending" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645413160
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645412954" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413160" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645413161
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413160" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645413161" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645413170
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1645891140" entry:"1645410171" modified:"1645413161" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413170" status:"pending" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645413229
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413170" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645413229" entry:"1645410171" modified:"1645413229" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645413241
+old [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645412624" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" end:"1645413241" entry:"1645369183" modified:"1645413241" status:"completed" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1645413251
+old [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" end:"1645413241" entry:"1645369183" modified:"1645413241" status:"completed" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645413251" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1645413251
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645413229" entry:"1645410171" modified:"1645413229" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413251" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645440078
+new [description:"&open;2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645440078" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645440100
+old [description:"&open;2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645440078" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645440100" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645452619
+new [description:" &open;2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452619" status:"pending" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+---
+time 1645452750
+old [description:" &open;2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452619" status:"pending" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+new [description:"&open;2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452750" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+---
+time 1645452769
+old [description:"&open;2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452750" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+new [description:"&open;Diary 2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452769" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+---
+time 1645453250
+old [description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645440100" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" entry:"1645440078" modified:"1645453250" status:"pending" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645454590
+old [description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" entry:"1645440078" modified:"1645453250" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" entry:"1645440078" modified:"1645454590" status:"pending" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645488911
+old [description:"&open;Diary 2022-02-21&close; Clean Home" entry:"1645452619" modified:"1645452769" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+new [description:"&open;Diary 2022-02-21&close; Clean Home" end:"1645488911" entry:"1645452619" modified:"1645488911" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"1d8202bd-51c5-447e-95dd-33b0498cd6dc"]
+---
+time 1645518428
+new [description:"&open;Diary 2022-02-22&close; Make a github dir for vimwiki" entry:"1645518428" modified:"1645518428" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518458
+old [description:"&open;Diary 2022-02-22&close; Make a github dir for vimwiki" entry:"1645518428" modified:"1645518428" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"+1week" entry:"1645518428" modified:"1645518458" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518503
+old [description:"+1week" entry:"1645518428" modified:"1645518458" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"&open;Diary 2022-02-22&close; Make a github dir for vimwiki" entry:"1645518428" modified:"1645518503" status:"pending" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518506
+old [description:"&open;Diary 2022-02-22&close; Make a github dir for vimwiki" entry:"1645518428" modified:"1645518503" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"+1week" entry:"1645518428" modified:"1645518506" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518530
+old [description:"+1week" entry:"1645518428" modified:"1645518506" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" entry:"1645518428" modified:"1645518530" status:"pending" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518578
+old [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" entry:"1645518428" modified:"1645518530" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" due:"1646123378" entry:"1645518428" modified:"1645518578" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645518741
+old [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" due:"1646123378" entry:"1645518428" modified:"1645518578" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" due:"1646123340" entry:"1645518428" modified:"1645518741" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1645519492
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" entry:"1645440078" modified:"1645454590" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519492" entry:"1645440078" modified:"1645519492" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519551
+old [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645412453" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" end:"1645519551" entry:"1645410171" modified:"1645519551" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519574
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519492" entry:"1645440078" modified:"1645519492" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519492" entry:"1645440078" modified:"1645519574" status:"completed" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519576
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519492" entry:"1645440078" modified:"1645519574" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519492" entry:"1645440078" modified:"1645519576" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519576
+old [description:"Filipino Markdown vlog" end:"1645519551" entry:"1645410171" modified:"1645519551" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" end:"1645519576" entry:"1645410171" modified:"1645519576" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519579
+old [description:"Filipino Markdown vlog" end:"1645519576" entry:"1645410171" modified:"1645519576" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" end:"1645519579" entry:"1645410171" modified:"1645519579" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519582
+old [description:"Filipino Markdown vlog" end:"1645519579" entry:"1645410171" modified:"1645519579" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" end:"1645519582" entry:"1645410171" modified:"1645519582" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519590
+old [description:"Filipino Markdown vlog" end:"1645519582" entry:"1645410171" modified:"1645519582" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645519590" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519595
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519492" entry:"1645440078" modified:"1645519576" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519595" entry:"1645440078" modified:"1645519595" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519624
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" due:"1645891140" end:"1645519595" entry:"1645440078" modified:"1645519595" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519595" entry:"1645440078" modified:"1645519624" status:"completed" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519668
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519595" entry:"1645440078" modified:"1645519624" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519668" entry:"1645440078" modified:"1645519668" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519672
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519668" entry:"1645440078" modified:"1645519668" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519672" entry:"1645440078" modified:"1645519672" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519679
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519672" entry:"1645440078" modified:"1645519672" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645519679" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519697
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645519679" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519697" entry:"1645440078" modified:"1645519697" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519713
+old [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645413141" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645519713
+old [description:"Math calculate land" due:"1646063940" entry:"1645410171" modified:"1645413077" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land" due:"1646063940" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645519713
+old [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645519590" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519713
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645413251" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645519724
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519697" entry:"1645440078" modified:"1645519697" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645519724" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645519724
+old [description:"Science Research Paper" due:"1645891140" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645519724" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645519724
+old [description:"Math calculate land" due:"1646063940" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land" due:"1646063940" entry:"1645410171" modified:"1645519724" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645519724
+old [description:"Filipino Markdown vlog" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645519724" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645519724
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645519713" entry:"1645410171" modified:"1645519713" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645519724" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645519775
+old [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" entry:"1645440078" modified:"1645519724" status:"pending" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+new [annotation_1645454360:"Gonna sleep now so continuation - cinderella is able to make in time but the fairy forgets about the curse and cinderella, becomes exposed infront of the prince and the prince is disgusted about the filthy clothing she has and some verbal abuse with guard ending putting her to jail" description:"&open;School PT 2022-02-21&close; Major Performance Task (Cinderella)" end:"1645519775" entry:"1645440078" modified:"1645519775" status:"completed" tags:"language,school" tags_language:"x" tags_school:"x" uuid:"1a5a3a40-cb38-41d8-bc32-a640506122a3"]
+---
+time 1645520031
+old [description:"Math calculate land" due:"1646063940" entry:"1645410171" modified:"1645519724" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land using brochure" due:"1646063940" entry:"1645410171" modified:"1645520031" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1645520147
+old [description:"Filipino Markdown vlog" entry:"1645410171" modified:"1645519724" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino vlog with Science video" entry:"1645410171" modified:"1645520147" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645542296
+new [description:"&open;2022-02-22&close; Format and new dwm after QEs" entry:"1645542296" modified:"1645542296" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1645626907
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646622120" entry:"1645366305" modified:"1645412569" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647226920" entry:"1645366305" modified:"1645626907" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645627008
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647226920" entry:"1645366305" modified:"1645626907" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646794920" entry:"1645366305" modified:"1645627008" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645627010
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646794920" entry:"1645366305" modified:"1645627008" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647226920" entry:"1645366305" modified:"1645627010" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645627021
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647226920" entry:"1645366305" modified:"1645627010" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646794920" entry:"1645366305" modified:"1645627021" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1645711457
+old [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645519724" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" end:"1645711457" entry:"1645410171" modified:"1645711457" status:"completed" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645711457
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645519724" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645711457" entry:"1645410171" modified:"1645711457" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645711471
+old [description:"Science Research Paper" due:"1645891140" end:"1645711457" entry:"1645410171" modified:"1645711457" status:"completed" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645711471" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645711471
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645711457" entry:"1645410171" modified:"1645711457" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645711471" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645711476
+old [description:"Science Research Paper" due:"1645891140" entry:"1645410171" modified:"1645711471" status:"pending" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+new [description:"Science Research Paper" due:"1645891140" end:"1645711476" entry:"1645410171" modified:"1645711476" status:"completed" tags:"school,science" tags_school:"x" tags_science:"x" uuid:"4ad8abc1-27cc-4288-9244-212ce7d64a23"]
+---
+time 1645857203
+old [description:"Filipino vlog with Science video" entry:"1645410171" modified:"1645520147" status:"pending" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+new [description:"Filipino vlog with Science video" end:"1645857203" entry:"1645410171" modified:"1645857203" status:"completed" tags:"filipino,school" tags_filipino:"x" tags_school:"x" uuid:"7f732429-77cb-4416-a3f8-1d60d49ae2e2"]
+---
+time 1645880269
+old [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" entry:"1645410171" modified:"1645711471" status:"pending" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+new [dep_4ad8abc1-27cc-4288-9244-212ce7d64a23:"x" dep_6181cb24-c0f8-419b-84b8-9d22fc330c26:"x" dep_7f732429-77cb-4416-a3f8-1d60d49ae2e2:"x" depends:"4ad8abc1-27cc-4288-9244-212ce7d64a23,6181cb24-c0f8-419b-84b8-9d22fc330c26,7f732429-77cb-4416-a3f8-1d60d49ae2e2" description:"&open;School PT 2022-02-21&close; Project Based Learning" due:"1646063940" end:"1645880269" entry:"1645410171" modified:"1645880269" status:"completed" tags:"filipino,math,school,science" tags_filipino:"x" tags_math:"x" tags_school:"x" tags_science:"x" uuid:"a61ab8df-1404-44a7-9376-f68b6714ed2c"]
+---
+time 1645881212
+new [description:"&open;Diary 2022-02-26&close; Configure dunst" entry:"1645881212" modified:"1645881212" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+---
+time 1645881212
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" entry:"1645881212" modified:"1645881212" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1645881275
+old [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" entry:"1645881212" modified:"1645881212" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" end:"1645881275" entry:"1645881212" modified:"1645881275" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1645881284
+old [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" end:"1645881275" entry:"1645881212" modified:"1645881275" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" end:"1645881275" entry:"1645881212" modified:"1645881284" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1645881308
+old [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" end:"1645881275" entry:"1645881212" modified:"1645881284" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" due:"1646486108" end:"1645881275" entry:"1645881212" modified:"1645881308" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1645881328
+old [description:"&open;Diary 2022-02-26&close; Configure dunst" entry:"1645881212" modified:"1645881212" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+new [description:"&open;Diary 2022-02-26&close; Configure dunst" due:"1646486128" entry:"1645881212" modified:"1645881328" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+---
+time 1645881330
+old [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" due:"1646486108" end:"1645881275" entry:"1645881212" modified:"1645881308" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" due:"1646486100" entry:"1645881212" modified:"1645881330" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1645881330
+old [description:"&open;Diary 2022-02-26&close; Configure dunst" due:"1646486128" entry:"1645881212" modified:"1645881328" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+new [description:"&open;Diary 2022-02-26&close; Configure dunst" due:"1646486100" entry:"1645881212" modified:"1645881330" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+---
+time 1646053503
+old [description:"Math calculate land using brochure" due:"1646063940" entry:"1645410171" modified:"1645520031" status:"pending" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+new [description:"Math calculate land using brochure" due:"1646063940" end:"1646053503" entry:"1645410171" modified:"1646053503" status:"completed" tags:"math,school" tags_math:"x" tags_school:"x" uuid:"6181cb24-c0f8-419b-84b8-9d22fc330c26"]
+---
+time 1646053703
+new [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" entry:"1646053703" modified:"1646053703" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+---
+time 1646054427
+old [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" entry:"1646053703" modified:"1646053703" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+new [description:"23:59" due:"1646409600" entry:"1646053703" modified:"1646054427" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+---
+time 1646054500
+old [description:"23:59" due:"1646409600" entry:"1646053703" modified:"1646054427" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+new [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" due:"1646409600" entry:"1646053703" modified:"1646054500" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+---
+time 1646054522
+old [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" due:"1646409600" entry:"1646053703" modified:"1646054500" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+new [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" due:"1646495940" entry:"1646053703" modified:"1646054522" status:"pending" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+---
+time 1646054572
+old [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" due:"1646123340" entry:"1645518428" modified:"1645518741" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+new [description:"&open;Diary 2022-02-22&close; Make github dir for vimwiki" due:"1646123340" end:"1646054572" entry:"1645518428" modified:"1646054572" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"3ca4446e-aca4-42e8-835b-f3186e48a0cf"]
+---
+time 1646054572
+old [description:"&open;Diary 2022-02-26&close; Configure dunst" due:"1646486100" entry:"1645881212" modified:"1645881330" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+new [description:"&open;Diary 2022-02-26&close; Configure dunst" due:"1646486100" end:"1646054572" entry:"1645881212" modified:"1646054572" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"42f302cb-7e42-4ca1-9653-b4da2143e8ad"]
+---
+time 1646293448
+old [description:"&open;2022-02-22&close; Format and new dwm after QEs" entry:"1645542296" modified:"1645542296" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format once package reaches 1000" entry:"1645542296" modified:"1646293448" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1646293450
+old [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" due:"1646486100" entry:"1645881212" modified:"1645881330" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+new [description:"&open;Diary 2022-02-26&close; Appointment tag for tasks" due:"1646486100" end:"1646293450" entry:"1645881212" modified:"1646293450" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"6fff5f0b-7fd6-4aa4-82ff-254ea572ba22"]
+---
+time 1646293450
+old [description:"&open;2022-02-22&close; Format once package reaches 1000" entry:"1645542296" modified:"1646293448" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format and new dwm after QEs" entry:"1645542296" modified:"1646293450" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1646293472
+old [description:"&open;2022-02-22&close; Format and new dwm after QEs" entry:"1645542296" modified:"1646293450" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format once package reaches 1000" entry:"1645542296" modified:"1646293472" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1646458974
+old [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" due:"1646495940" entry:"1646053703" modified:"1646054522" status:"pending" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+new [description:"&open;School PT 2022-02-28&close; Jane Eyre Major PT" due:"1646495940" end:"1646458974" entry:"1646053703" modified:"1646458974" status:"completed" tags:"literature,school" tags_literature:"x" tags_school:"x" uuid:"ab751076-e550-4dfa-8e47-1c7c0e5fbf78"]
+---
+time 1646554013
+new [description:"&open;Diary 2022-03-06&close; Make anime tag for task" entry:"1646554013" modified:"1646554013" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"c98f4149-8251-4a7c-91a9-41490e35034d"]
+---
+time 1646554047
+old [description:"&open;Diary 2022-03-06&close; Make anime tag for task" entry:"1646554013" modified:"1646554013" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"c98f4149-8251-4a7c-91a9-41490e35034d"]
+new [description:"&open;Diary 2022-03-06&close; Make anime tag for task (leader+w+a as shortcut maybe)" entry:"1646554013" modified:"1646554047" status:"pending" tags_Diary:"x" uuid:"c98f4149-8251-4a7c-91a9-41490e35034d"]
+---
+time 1646562034
+old [description:"&open;2022-02-22&close; Format once package reaches 1000" entry:"1645542296" modified:"1646293472" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format once package reaches 800" entry:"1645542296" modified:"1646562034" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1646573638
+new [description:"hello this is a test" entry:"1646573638" modified:"1646573638" status:"pending" tags:"anime" tags_anime:"x" uuid:"8a6478e8-6453-4bfe-8dc9-efc88dfe30e6"]
+---
+time 1646574311
+new [description:"will this move up there?" entry:"1646574311" modified:"1646574311" status:"pending" tags:"anime" tags_anime:"x" uuid:"79d21f91-b0ba-4ddf-bf4c-65ebec085585"]
+---
+time 1646574686
+old [description:"will this move up there?" entry:"1646574311" modified:"1646574311" status:"pending" tags:"anime" tags_anime:"x" uuid:"79d21f91-b0ba-4ddf-bf4c-65ebec085585"]
+new [description:"will this move up there?" end:"1646574686" entry:"1646574311" modified:"1646574686" status:"completed" tags:"anime" tags_anime:"x" uuid:"79d21f91-b0ba-4ddf-bf4c-65ebec085585"]
+---
+time 1646574692
+old [description:"hello this is a test" entry:"1646573638" modified:"1646573638" status:"pending" tags:"anime" tags_anime:"x" uuid:"8a6478e8-6453-4bfe-8dc9-efc88dfe30e6"]
+new [description:"hello this is a test" end:"1646574692" entry:"1646573638" modified:"1646574692" status:"completed" tags:"anime" tags_anime:"x" uuid:"8a6478e8-6453-4bfe-8dc9-efc88dfe30e6"]
+---
+time 1646574808
+old [description:"will this move up there?" end:"1646574686" entry:"1646574311" modified:"1646574686" status:"completed" tags:"anime" tags_anime:"x" uuid:"79d21f91-b0ba-4ddf-bf4c-65ebec085585"]
+new [description:"will this move up there?" end:"1646574686" entry:"1646574311" modified:"1646574808" status:"deleted" tags:"anime" tags_anime:"x" uuid:"79d21f91-b0ba-4ddf-bf4c-65ebec085585"]
+---
+time 1646574810
+old [description:"hello this is a test" end:"1646574692" entry:"1646573638" modified:"1646574692" status:"completed" tags:"anime" tags_anime:"x" uuid:"8a6478e8-6453-4bfe-8dc9-efc88dfe30e6"]
+new [description:"hello this is a test" end:"1646574692" entry:"1646573638" modified:"1646574810" status:"deleted" tags:"anime" tags_anime:"x" uuid:"8a6478e8-6453-4bfe-8dc9-efc88dfe30e6"]
+---
+time 1646577429
+new [description:"This is a test" end:"1646577429" entry:"1646577429" modified:"1646577429" status:"completed" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+---
+time 1646577433
+old [description:"This is a test" end:"1646577429" entry:"1646577429" modified:"1646577429" status:"completed" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+new [description:"This is a test" entry:"1646577429" modified:"1646577433" status:"pending" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+---
+time 1646577441
+old [description:"This is a test" entry:"1646577429" modified:"1646577433" status:"pending" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+new [description:"This is a test" end:"1646577441" entry:"1646577429" modified:"1646577441" status:"completed" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+---
+time 1646577443
+old [description:"This is a test" end:"1646577441" entry:"1646577429" modified:"1646577441" status:"completed" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+new [description:"This is a test" entry:"1646577429" modified:"1646577443" status:"pending" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+---
+time 1646577461
+new [description:"Was that a bug?" end:"1646577461" entry:"1646577461" modified:"1646577461" status:"completed" tags:"anime" tags_anime:"x" uuid:"4a636a4e-8215-4bf2-81aa-4b7c1dd7b076"]
+---
+time 1646577613
+new [description:"This is a test 0" entry:"1646577613" modified:"1646577613" status:"pending" tags:"anime" tags_anime:"x" uuid:"8df457fc-184c-4bc4-a32b-01a04f42ec7a"]
+---
+time 1646577618
+new [description:"This is a test 0" entry:"1646577618" modified:"1646577618" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646577624
+old [description:"This is a test" entry:"1646577429" modified:"1646577443" status:"pending" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+new [description:"This is a test" end:"1646577624" entry:"1646577429" modified:"1646577624" status:"deleted" tags:"anime" tags_anime:"x" uuid:"ff208f94-c854-4da9-a6fe-57569791a3e3"]
+---
+time 1646577625
+old [description:"This is a test 0" entry:"1646577613" modified:"1646577613" status:"pending" tags:"anime" tags_anime:"x" uuid:"8df457fc-184c-4bc4-a32b-01a04f42ec7a"]
+new [description:"This is a test 0" end:"1646577625" entry:"1646577613" modified:"1646577625" status:"deleted" tags:"anime" tags_anime:"x" uuid:"8df457fc-184c-4bc4-a32b-01a04f42ec7a"]
+---
+time 1646577631
+old [description:"This is a test 0" entry:"1646577618" modified:"1646577618" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"This is a test 1" entry:"1646577618" modified:"1646577631" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646577648
+old [description:"This is a test 1" entry:"1646577618" modified:"1646577631" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"This is a test 2" entry:"1646577618" modified:"1646577648" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646577651
+old [description:"This is a test 2" entry:"1646577618" modified:"1646577648" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"This is a test 3" entry:"1646577618" modified:"1646577651" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646577657
+old [description:"This is a test 3" entry:"1646577618" modified:"1646577651" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"This is a test 4" entry:"1646577618" modified:"1646577657" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646577663
+old [description:"This is a test 4" entry:"1646577618" modified:"1646577657" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"This is a test 0" entry:"1646577618" modified:"1646577663" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646579053
+old [description:"This is a test 0" entry:"1646577618" modified:"1646577663" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579053" status:"pending" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646579467
+old [description:"(1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579053" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(E1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579467" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646579528
+new [description:"&open;Diary 2022-03-06&close; Fcitx5 in St" entry:"1646579528" modified:"1646579528" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"4cae5430-a2aa-4f27-8e00-caab68a77070"]
+---
+time 1646579557
+old [description:"(E1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579467" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"Benkyouga dekinai S2 E1" entry:"1646577618" modified:"1646579557" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646579586
+old [description:"Benkyouga dekinai S2 E1" entry:"1646577618" modified:"1646579557" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(E1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579586" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646621370
+old [description:"(E1) Benkyouga dekinai S2" entry:"1646577618" modified:"1646579586" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(E1) 우리는 공부를 못해 S2" entry:"1646577618" modified:"1646621370" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646627370
+old [description:"(E1) 우리는 공부를 못해 S2" entry:"1646577618" modified:"1646621370" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(E7) 우리는 공부를 못해 S2" entry:"1646577618" modified:"1646627370" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646629551
+old [description:"(E7) 우리는 공부를 못해 S2" entry:"1646577618" modified:"1646627370" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(7화) 우리는 공부를 못해 2기" entry:"1646577618" modified:"1646629551" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646629551
+new [description:"(10화) 미확인으로 진행형" entry:"1646629551" modified:"1646629551" status:"pending" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+---
+time 1646630096
+new [description:"기어와라 나루코양" entry:"1646630096" modified:"1646630096" status:"pending" tags:"anime" tags_anime:"x" uuid:"c57e78cf-0ff7-4bc0-8a70-2865585b672c"]
+---
+time 1646630114
+new [description:"여동생만 있으면 돼" entry:"1646630114" modified:"1646630114" status:"pending" tags:"anime" tags_anime:"x" uuid:"e77d285a-25a7-48e9-96b9-cc0dfe5ea2fd"]
+---
+time 1646630183
+new [description:"울려라 유포리엄" entry:"1646630183" modified:"1646630183" status:"pending" tags:"anime" tags_anime:"x" uuid:"80b8c70e-ab48-4a65-a778-8347e6a994c2"]
+---
+time 1646630194
+old [description:"울려라 유포리엄" entry:"1646630183" modified:"1646630183" status:"pending" tags:"anime" tags_anime:"x" uuid:"80b8c70e-ab48-4a65-a778-8347e6a994c2"]
+new [description:"울려라 유포리엄" end:"1646630194" entry:"1646630183" modified:"1646630194" status:"deleted" tags:"anime" tags_anime:"x" uuid:"80b8c70e-ab48-4a65-a778-8347e6a994c2"]
+---
+time 1646630195
+old [description:"여동생만 있으면 돼" entry:"1646630114" modified:"1646630114" status:"pending" tags:"anime" tags_anime:"x" uuid:"e77d285a-25a7-48e9-96b9-cc0dfe5ea2fd"]
+new [description:"여동생만 있으면 돼" end:"1646630195" entry:"1646630114" modified:"1646630195" status:"deleted" tags:"anime" tags_anime:"x" uuid:"e77d285a-25a7-48e9-96b9-cc0dfe5ea2fd"]
+---
+time 1646630197
+old [description:"기어와라 나루코양" entry:"1646630096" modified:"1646630096" status:"pending" tags:"anime" tags_anime:"x" uuid:"c57e78cf-0ff7-4bc0-8a70-2865585b672c"]
+new [description:"기어와라 나루코양" end:"1646630197" entry:"1646630096" modified:"1646630197" status:"deleted" tags:"anime" tags_anime:"x" uuid:"c57e78cf-0ff7-4bc0-8a70-2865585b672c"]
+---
+time 1646631090
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1646794920" entry:"1645366305" modified:"1645627021" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647140520" entry:"1645366305" modified:"1646631090" status:"pending" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1646634141
+old [description:"&open;Diary 2022-03-06&close; Make anime tag for task (leader+w+a as shortcut maybe)" entry:"1646554013" modified:"1646554047" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"c98f4149-8251-4a7c-91a9-41490e35034d"]
+new [description:"&open;Diary 2022-03-06&close; Make anime tag for task (leader+w+a as shortcut maybe)" end:"1646634141" entry:"1646554013" modified:"1646634141" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"c98f4149-8251-4a7c-91a9-41490e35034d"]
+---
+time 1646634141
+old [description:"&open;Diary 2022-03-06&close; Fcitx5 in St" entry:"1646579528" modified:"1646579528" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"4cae5430-a2aa-4f27-8e00-caab68a77070"]
+new [description:"&open;Diary 2022-03-06&close; Fcitx5 in St" end:"1646634141" entry:"1646579528" modified:"1646634141" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"4cae5430-a2aa-4f27-8e00-caab68a77070"]
+---
+time 1646637786
+old [description:"(7화) 우리는 공부를 못해 2기" entry:"1646577618" modified:"1646629551" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(13화9:44) 우리는 공부를 못해 2기" entry:"1646577618" modified:"1646637786" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646659471
+old [description:"(13화9:44) 우리는 공부를 못해 2기" entry:"1646577618" modified:"1646637786" status:"pending" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+new [description:"(13화9:44) 우리는 공부를 못해 2기" end:"1646659471" entry:"1646577618" modified:"1646659471" status:"deleted" tags:"anime" tags_anime:"x" uuid:"3ad7692f-522e-4f51-b4c4-313b719e96e2"]
+---
+time 1646661863
+old [description:"(10화) 미확인으로 진행형" entry:"1646629551" modified:"1646629551" status:"pending" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+new [description:"(11화) 미확인으로 진행형" entry:"1646629551" modified:"1646661863" status:"pending" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+---
+time 1646663993
+old [description:"(11화) 미확인으로 진행형" entry:"1646629551" modified:"1646661863" status:"pending" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+new [description:"(11화) 미확인으로 진행형" end:"1646663993" entry:"1646629551" modified:"1646663993" status:"completed" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+---
+time 1646663995
+old [description:"(11화) 미확인으로 진행형" end:"1646663993" entry:"1646629551" modified:"1646663993" status:"completed" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+new [description:"(11화) 미확인으로 진행형" end:"1646663993" entry:"1646629551" modified:"1646663995" status:"deleted" tags:"anime" tags_anime:"x" uuid:"6e680cc4-1926-44c0-80c8-1b0eb7bb37aa"]
+---
+time 1646664097
+new [description:"(0화)기어와라 나루코양" entry:"1646664097" modified:"1646664097" status:"pending" tags:"anime" tags_anime:"x" uuid:"85471059-c421-46b5-b7d0-0ede111d3d9b"]
+---
+time 1646703519
+old [description:"(0화)기어와라 나루코양" entry:"1646664097" modified:"1646664097" status:"pending" tags:"anime" tags_anime:"x" uuid:"85471059-c421-46b5-b7d0-0ede111d3d9b"]
+new [description:"(3화)기어와라 나루코양" entry:"1646664097" modified:"1646703519" status:"pending" tags:"anime" tags_anime:"x" uuid:"85471059-c421-46b5-b7d0-0ede111d3d9b"]
+---
+time 1646716445
+old [description:"(3화)기어와라 나루코양" entry:"1646664097" modified:"1646703519" status:"pending" tags:"anime" tags_anime:"x" uuid:"85471059-c421-46b5-b7d0-0ede111d3d9b"]
+new [description:"(3화)기어와라 나루코양" end:"1646716445" entry:"1646664097" modified:"1646716445" status:"deleted" tags:"anime" tags_anime:"x" uuid:"85471059-c421-46b5-b7d0-0ede111d3d9b"]
+---
+time 1646716474
+new [description:"(1화)여동생만 있으면 돼" entry:"1646716474" modified:"1646716474" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+---
+time 1646719513
+old [description:"(1화)여동생만 있으면 돼" entry:"1646716474" modified:"1646716474" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+new [description:"(2화)여동생만 있으면 돼" entry:"1646716474" modified:"1646719513" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+---

@@ -1,0 +1,8 @@
+fcitx5 &
+
+xset r rate 270 40
+xset -dpms
+xset s off
+
+exec ~/.config/iamchad/scripts/./autostart 
+
