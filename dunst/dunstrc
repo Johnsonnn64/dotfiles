@@ -30,10 +30,10 @@
     height = 40
 
     # Position the notification in the top right corner
-    origin = top-right
+    origin = top-left
 
     # Offset from the origin
-    offset = 805x12
+    offset = 240x12
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -185,7 +185,7 @@
     ### Icons ###
 
     # Align icons left/right/off
-    icon_position = right
+    icon_position = left
 
     # Scale small icons up to this size, set to 0 to disable. Helpful
     # for e.g. small files or high-dpi screens. In case of conflict,
@@ -196,7 +196,7 @@
     max_icon_size = 28
 
     # Paths to default icons.
-    icon_path = ~/pictures/icons 
+    icon_path = ~/personal/pictures/icons 
 
     ### History ###
 
@@ -295,21 +295,21 @@
     background = "#2E3440"
     foreground = "#D8DEE9"
     timeout = 10
-    default_icon = ~/pictures/icons/ojounya.png
+    default_icon = ~/personal/pictures/icons/ojounya.png
 
 [urgency_normal]
     background = "#2E3440"
     foreground = "#D8DEE9"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
-    default_icon = ~/pictures/icons/ojounya.png
+    default_icon = ~/personal/pictures/icons/ojounya.png
 
 [urgency_critical]
     background = "#BF616A"
     foreground = "#D8DEE9"
     frame_color = "#ff0000"
     timeout = 0
-    default_icon = ~/pictures/icons/ojounya.png
+    default_icon = ~/personal/pictures/icons/ojounya.png
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
