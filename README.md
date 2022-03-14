@@ -1,7 +1,7 @@
 # dotfiles
 my dotfiles
-first time I am writing a README.md file.
-basically an introduction for myself whenever I format my system.
+first time I am writing a README.md file </BR>
+basically an introduction for myself whenever I format my system
 
 # before everything
 * Download 
