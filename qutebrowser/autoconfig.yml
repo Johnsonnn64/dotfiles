@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  downloads.open_dispatcher:
-    global: null
+  tabs.last_close:
+    global: startpage

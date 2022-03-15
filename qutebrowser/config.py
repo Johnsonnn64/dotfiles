@@ -155,7 +155,7 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 c.scrolling.smooth = False
 
 # editor
-config.set('editor.command', ["st", "vim", "-f", "{file}", "-c", ":call cursor({line},{column})"])
+config.set('editor.command', ["st", "nvim", "-f", "{file}", "-c", ":call cursor({line},{column})"])
 # file selector
 config.set('fileselect.handler', 'external')
 # folder select (xterm ranger)
@@ -174,6 +174,9 @@ config.set('zoom.default', "80%")
 
 # Start page 
 config.set('url.start_pages', 'https://start.duckduckgo.com')
+
+# focus next
+config.set('tabs.select_on_remove', 'last-used')
 
 # Color settings
 
@@ -217,7 +220,6 @@ config.set('colors.statusbar.url.success.https.fg', '#A3BE8C')
 # status hover url fg
 config.set('colors.statusbar.url.hover.fg', '#88C0D0')
 
-
 # Completion bar settings
 
 # Height
@@ -253,3 +255,4 @@ config.set('hints.chars', 'asdfjkl')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;;config-cycle tabs.show always never')
+

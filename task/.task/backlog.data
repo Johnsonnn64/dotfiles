@@ -235,3 +235,32 @@
 {"description":"(3화)기어와라 나루코양","end":"20220308T051405Z","entry":"20220307T144137Z","modified":"20220308T051405Z","status":"deleted","uuid":"85471059-c421-46b5-b7d0-0ede111d3d9b","tags":["anime"]}
 {"description":"(1화)여동생만 있으면 돼","entry":"20220308T051434Z","modified":"20220308T051434Z","status":"pending","uuid":"9f0fad9b-a0eb-496a-8687-6cc5644b15cf","tags":["anime"]}
 {"description":"(2화)여동생만 있으면 돼","entry":"20220308T051434Z","modified":"20220308T060513Z","status":"pending","uuid":"9f0fad9b-a0eb-496a-8687-6cc5644b15cf","tags":["anime"]}
+{"description":"(9화)여동생만 있으면 돼","entry":"20220308T051434Z","modified":"20220309T024849Z","status":"pending","uuid":"9f0fad9b-a0eb-496a-8687-6cc5644b15cf","tags":["anime"]}
+{"description":"(11화)여동생만 있으면 돼","entry":"20220308T051434Z","modified":"20220309T033931Z","status":"pending","uuid":"9f0fad9b-a0eb-496a-8687-6cc5644b15cf","tags":["anime"]}
+{"description":"(0화)울려라 유포리엄","entry":"20220309T033931Z","modified":"20220309T033931Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(11화)여동생만 있으면 돼","end":"20220309T065028Z","entry":"20220308T051434Z","modified":"20220309T065028Z","status":"deleted","uuid":"9f0fad9b-a0eb-496a-8687-6cc5644b15cf","tags":["anime"]}
+{"description":"(0화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220309T065136Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(2화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220309T074550Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"School Schedule","end":"20220309T171359Z","entry":"20220220T145039Z","modified":"20220309T171359Z","status":"deleted","uuid":"81eb307e-bc7d-418f-ab50-ceb891959f8a","tags":["Diary"]}
+{"description":"Links to frequently used website","end":"20220309T171401Z","entry":"20220220T145039Z","modified":"20220309T171401Z","status":"completed","uuid":"88aa26ce-7744-4324-bf55-505ac76b717a","tags":["Diary"]}
+{"description":"Nord based color scheme","end":"20220309T171401Z","entry":"20220220T145039Z","modified":"20220309T171401Z","status":"completed","uuid":"544ff92f-41be-4d43-8358-21e2fc865a51","tags":["Diary"]}
+{"description":"Clock","end":"20220309T171401Z","entry":"20220220T145039Z","modified":"20220309T171401Z","status":"completed","uuid":"74cf5f68-9199-4dc5-83b0-e873faf2f5ee","tags":["Diary"]}
+{"description":"[Diary 2022-02-20] Make a minimal personal website","due":"20220313T030200Z","end":"20220309T171401Z","entry":"20220220T141145Z","modified":"20220309T171401Z","status":"completed","uuid":"b212b63b-4018-4d46-b0ab-e1e576af5e81","tags":["Diary"],"depends":["544ff92f-41be-4d43-8358-21e2fc865a51","74cf5f68-9199-4dc5-83b0-e873faf2f5ee","81eb307e-bc7d-418f-ab50-ceb891959f8a","88aa26ce-7744-4324-bf55-505ac76b717a"]}
+{"description":"[2022-02-20] Create either 1.) key binding in dwm to show task, 2.) run task on bash startup","end":"20220309T171533Z","entry":"20220220T145943Z","modified":"20220309T171533Z","status":"deleted","uuid":"2294f8db-a8ea-4956-9b88-c9cb19af073a"}
+{"description":"[2022-03-10] Automate schedule writing. (bash shell? dmenu?)","entry":"20220309T171537Z","modified":"20220309T171537Z","status":"pending","uuid":"f4859ea1-5c54-4158-9ecc-b5aefc9cec31"}
+{"description":"[2022-02-22] Format once package reaches 800 (or after exams)","entry":"20220222T150456Z","modified":"20220310T013617Z","status":"pending","uuid":"d8eb72f2-2295-4c3f-9b31-d4679653219a"}
+{"description":"[2022-03-10] Automate schedule writing. (bash shell? dmenu? maybe can be made in js again)","entry":"20220309T171537Z","modified":"20220310T014420Z","status":"pending","uuid":"f4859ea1-5c54-4158-9ecc-b5aefc9cec31"}
+{"description":"(6화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220310T031507Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(7화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220310T035612Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(8화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220310T171128Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"[2022-02-22] Format once package reaches 800 (or after exams) (maybe just during the weekends)","entry":"20220222T150456Z","modified":"20220311T002807Z","status":"pending","uuid":"d8eb72f2-2295-4c3f-9b31-d4679653219a"}
+{"description":"(9화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220312T091837Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(10화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220312T135425Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(12화)울려라 유포니엄","entry":"20220309T033931Z","modified":"20220312T150244Z","status":"pending","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(1화)울려라 유포니엄2화","entry":"20220313T092120Z","modified":"20220313T092120Z","status":"pending","uuid":"46afb786-e5cb-457f-9dc8-877b25cdf0bc","tags":["anime"]}
+{"description":"(12화)울려라 유포니엄","end":"20220313T092132Z","entry":"20220309T033931Z","modified":"20220313T092132Z","status":"deleted","uuid":"bcda42e3-da97-42a9-bf8e-051fdf424989","tags":["anime"]}
+{"description":"(1화)울려라 유포니엄2기","entry":"20220313T092120Z","modified":"20220313T092154Z","status":"pending","uuid":"46afb786-e5cb-457f-9dc8-877b25cdf0bc","tags":["anime"]}
+{"description":"(1화)울려라 유포니엄 2기","entry":"20220313T092120Z","modified":"20220313T092217Z","status":"pending","uuid":"46afb786-e5cb-457f-9dc8-877b25cdf0bc","tags":["anime"]}
+{"description":"test","entry":"20220314T030613Z","modified":"20220314T030613Z","status":"pending","uuid":"1d721c1e-3d0e-4c15-af05-46b99fe1fc27"}
+{"description":"test","end":"20220314T051139Z","entry":"20220314T030613Z","modified":"20220314T051139Z","status":"deleted","uuid":"1d721c1e-3d0e-4c15-af05-46b99fe1fc27"}
+{"description":"(3화)울려라 유포니엄 2기","entry":"20220313T092120Z","modified":"20220314T111013Z","status":"pending","uuid":"46afb786-e5cb-457f-9dc8-877b25cdf0bc","tags":["anime"]}

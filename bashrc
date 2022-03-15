@@ -14,12 +14,7 @@ HISTSIZE=99999
 HISTFILESIZE=99999 # Infinite history
 HISTFILE="$HOME/.cache/bash_history"
 
-# export PS1='\n\[$(tput bold)\]\[$(tput setaf 1)\][\A] \[$(tput setaf 2)\]\w \[$(tput setaf 14)\]\$ \[$(tput sgr0)\]\[$(tput setaf 6)\]󰶻 \[$(tput sgr0)\] '
-
-
-if [ -f /usr/local/bin/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
-	source /usr/local/bin/synth-shell-prompt.sh
-fi
+export PS1='\n\[$(tput bold)\]\[$(tput setaf 1)\][\A] \[$(tput setaf 2)\]\w \[$(tput setaf 14)\]\$ \[$(tput sgr0)\]\[$(tput setaf 6)\]>>>\[$(tput sgr0)\] '
 
 ~/.config/iamchad/scripts/fetch
 

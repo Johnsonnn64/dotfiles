@@ -1,23 +1,18 @@
 #
-# ~/.bash_profile
+# zprofile
 #
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
 
 export PATH="$PATH:$HOME/.local/bin"
 export EDITOR="nvim"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
-export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
+export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
 export SSB_HOME="$XDG_DATA_HOME"/zoom
 export GPG_TTY=$(tty)
 export LESSHISTFILE="-"
 
-
-# startx if not running
+# startx auto
 if [ "$(tty)" = "/dev/tty1" ]; then 
-  pgrep -x dwm || exec startx
+  pgrep -x dwm || exec startx ~/.config/x11/xinitrc
 fi
-
-

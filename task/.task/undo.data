@@ -897,3 +897,115 @@ time 1646719513
 old [description:"(1화)여동생만 있으면 돼" entry:"1646716474" modified:"1646716474" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
 new [description:"(2화)여동생만 있으면 돼" entry:"1646716474" modified:"1646719513" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
 ---
+time 1646794129
+old [description:"(2화)여동생만 있으면 돼" entry:"1646716474" modified:"1646719513" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+new [description:"(9화)여동생만 있으면 돼" entry:"1646716474" modified:"1646794129" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+---
+time 1646797171
+old [description:"(9화)여동생만 있으면 돼" entry:"1646716474" modified:"1646794129" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+new [description:"(11화)여동생만 있으면 돼" entry:"1646716474" modified:"1646797171" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+---
+time 1646797171
+new [description:"(0화)울려라 유포리엄" entry:"1646797171" modified:"1646797171" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646808628
+old [description:"(11화)여동생만 있으면 돼" entry:"1646716474" modified:"1646797171" status:"pending" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+new [description:"(11화)여동생만 있으면 돼" end:"1646808628" entry:"1646716474" modified:"1646808628" status:"deleted" tags:"anime" tags_anime:"x" uuid:"9f0fad9b-a0eb-496a-8687-6cc5644b15cf"]
+---
+time 1646808696
+old [description:"(0화)울려라 유포리엄" entry:"1646797171" modified:"1646797171" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(0화)울려라 유포니엄" entry:"1646797171" modified:"1646808696" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646811950
+old [description:"(0화)울려라 유포니엄" entry:"1646797171" modified:"1646808696" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(2화)울려라 유포니엄" entry:"1646797171" modified:"1646811950" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646846039
+old [description:"School Schedule" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"81eb307e-bc7d-418f-ab50-ceb891959f8a"]
+new [description:"School Schedule" end:"1646846039" entry:"1645368639" modified:"1646846039" status:"deleted" tags:"Diary" tags_Diary:"x" uuid:"81eb307e-bc7d-418f-ab50-ceb891959f8a"]
+---
+time 1646846041
+old [description:"Links to frequently used website" entry:"1645368639" modified:"1645368639" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"88aa26ce-7744-4324-bf55-505ac76b717a"]
+new [description:"Links to frequently used website" end:"1646846041" entry:"1645368639" modified:"1646846041" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"88aa26ce-7744-4324-bf55-505ac76b717a"]
+---
+time 1646846041
+old [description:"Nord based color scheme" entry:"1645368639" modified:"1645410318" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+new [description:"Nord based color scheme" end:"1646846041" entry:"1645368639" modified:"1646846041" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"544ff92f-41be-4d43-8358-21e2fc865a51"]
+---
+time 1646846041
+old [description:"Clock" entry:"1645368639" modified:"1645368817" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+new [description:"Clock" end:"1646846041" entry:"1645368639" modified:"1646846041" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"74cf5f68-9199-4dc5-83b0-e873faf2f5ee"]
+---
+time 1646846041
+old [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647140520" entry:"1645366305" modified:"1646631090" status:"pending" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+new [dep_544ff92f-41be-4d43-8358-21e2fc865a51:"x" dep_74cf5f68-9199-4dc5-83b0-e873faf2f5ee:"x" dep_81eb307e-bc7d-418f-ab50-ceb891959f8a:"x" dep_88aa26ce-7744-4324-bf55-505ac76b717a:"x" depends:"544ff92f-41be-4d43-8358-21e2fc865a51,74cf5f68-9199-4dc5-83b0-e873faf2f5ee,81eb307e-bc7d-418f-ab50-ceb891959f8a,88aa26ce-7744-4324-bf55-505ac76b717a" description:"&open;Diary 2022-02-20&close; Make a minimal personal website" due:"1647140520" end:"1646846041" entry:"1645366305" modified:"1646846041" status:"completed" tags:"Diary" tags_Diary:"x" uuid:"b212b63b-4018-4d46-b0ab-e1e576af5e81"]
+---
+time 1646846133
+old [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" entry:"1645369183" modified:"1645413251" status:"pending" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+new [description:"&open;2022-02-20&close; Create either 1.) key binding in dwm to show task, 2.) run task on bash startup" end:"1646846133" entry:"1645369183" modified:"1646846133" status:"deleted" uuid:"2294f8db-a8ea-4956-9b88-c9cb19af073a"]
+---
+time 1646846137
+new [description:"&open;2022-03-10&close; Automate schedule writing. (bash shell? dmenu?)" entry:"1646846137" modified:"1646846137" status:"pending" uuid:"f4859ea1-5c54-4158-9ecc-b5aefc9cec31"]
+---
+time 1646876177
+old [description:"&open;2022-02-22&close; Format once package reaches 800" entry:"1645542296" modified:"1646562034" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format once package reaches 800 (or after exams)" entry:"1645542296" modified:"1646876177" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1646876660
+old [description:"&open;2022-03-10&close; Automate schedule writing. (bash shell? dmenu?)" entry:"1646846137" modified:"1646846137" status:"pending" uuid:"f4859ea1-5c54-4158-9ecc-b5aefc9cec31"]
+new [description:"&open;2022-03-10&close; Automate schedule writing. (bash shell? dmenu? maybe can be made in js again)" entry:"1646846137" modified:"1646876660" status:"pending" uuid:"f4859ea1-5c54-4158-9ecc-b5aefc9cec31"]
+---
+time 1646882107
+old [description:"(2화)울려라 유포니엄" entry:"1646797171" modified:"1646811950" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(6화)울려라 유포니엄" entry:"1646797171" modified:"1646882107" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646884572
+old [description:"(6화)울려라 유포니엄" entry:"1646797171" modified:"1646882107" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(7화)울려라 유포니엄" entry:"1646797171" modified:"1646884572" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646932288
+old [description:"(7화)울려라 유포니엄" entry:"1646797171" modified:"1646884572" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(8화)울려라 유포니엄" entry:"1646797171" modified:"1646932288" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1646958487
+old [description:"&open;2022-02-22&close; Format once package reaches 800 (or after exams)" entry:"1645542296" modified:"1646876177" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+new [description:"&open;2022-02-22&close; Format once package reaches 800 (or after exams) (maybe just during the weekends)" entry:"1645542296" modified:"1646958487" status:"pending" uuid:"d8eb72f2-2295-4c3f-9b31-d4679653219a"]
+---
+time 1647076717
+old [description:"(8화)울려라 유포니엄" entry:"1646797171" modified:"1646932288" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(9화)울려라 유포니엄" entry:"1646797171" modified:"1647076717" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1647093265
+old [description:"(9화)울려라 유포니엄" entry:"1646797171" modified:"1647076717" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(10화)울려라 유포니엄" entry:"1646797171" modified:"1647093265" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1647097364
+old [description:"(10화)울려라 유포니엄" entry:"1646797171" modified:"1647093265" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(12화)울려라 유포니엄" entry:"1646797171" modified:"1647097364" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1647163280
+new [description:"(1화)울려라 유포니엄2화" entry:"1647163280" modified:"1647163280" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+---
+time 1647163292
+old [description:"(12화)울려라 유포니엄" entry:"1646797171" modified:"1647097364" status:"pending" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+new [description:"(12화)울려라 유포니엄" end:"1647163292" entry:"1646797171" modified:"1647163292" status:"deleted" tags:"anime" tags_anime:"x" uuid:"bcda42e3-da97-42a9-bf8e-051fdf424989"]
+---
+time 1647163314
+old [description:"(1화)울려라 유포니엄2화" entry:"1647163280" modified:"1647163280" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+new [description:"(1화)울려라 유포니엄2기" entry:"1647163280" modified:"1647163314" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+---
+time 1647163337
+old [description:"(1화)울려라 유포니엄2기" entry:"1647163280" modified:"1647163314" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+new [description:"(1화)울려라 유포니엄 2기" entry:"1647163280" modified:"1647163337" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+---
+time 1647227173
+new [description:"test" entry:"1647227173" modified:"1647227173" status:"pending" uuid:"1d721c1e-3d0e-4c15-af05-46b99fe1fc27"]
+---
+time 1647234699
+old [description:"test" entry:"1647227173" modified:"1647227173" status:"pending" uuid:"1d721c1e-3d0e-4c15-af05-46b99fe1fc27"]
+new [description:"test" end:"1647234699" entry:"1647227173" modified:"1647234699" status:"deleted" uuid:"1d721c1e-3d0e-4c15-af05-46b99fe1fc27"]
+---
+time 1647256213
+old [description:"(1화)울려라 유포니엄 2기" entry:"1647163280" modified:"1647163337" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+new [description:"(3화)울려라 유포니엄 2기" entry:"1647163280" modified:"1647256213" status:"pending" tags:"anime" tags_anime:"x" uuid:"46afb786-e5cb-457f-9dc8-877b25cdf0bc"]
+---

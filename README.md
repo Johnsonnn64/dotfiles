@@ -15,14 +15,14 @@ config files for neovim
 ```
 git clone https://github.com/Johnsonnn64/gitnvim ~/.config/nvim
 ```
+catppuccin color scheme customize
+```
+mv mapper.lua ~/.config/nvim/autoload/plugged/catppuccin/lua/catppuccin/core/mapper.lua
+
+mv config.lua ~/.config/nvim/autoload/plugged/catppuccin/lua/catppuccin/config.lua
+```
 
 ## zsh (shell)
-move zshrc into .config and make dir for plugins
-```
-mv ~/dotfiles/zsh ~/.config
-
-mkdir ~/.config/zsh/zplugins
-```
 git clone 3 plugins used
 ```
 git clone https://github.com/jeffreytse/zsh-vi-mode.git ~/.config/zsh/zplugins/zsh-vi-mode
@@ -31,7 +31,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugin
 ```
 /etc/zsh/</BR>
 source /path/to/.zprofile -> /etc/zsh/zprofile</BR>
-export ZDOTDIR="~/.config/zsh"
+export ZDOTDIR="~/.config/zsh" -> /etc/zsh/zenv
 
 ## DWM (window manager)
 the repo Johnsonnn64/iamcahd is my DWM 
@@ -50,3 +50,10 @@ git clone https://github.com/Johnsonnn64/newgitst ~/workspace/suckless/newgitst
 cd ~/workspace/suckless/newgitst && sudo make install
 ```
 
+## bin
+shell scripts 
+```
+mkdir ~/.local/bin
+
+mv bin ~/.local/bin
+```
