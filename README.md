@@ -17,7 +17,21 @@ git clone https://github.com/Johnsonnn64/gitnvim ~/.config/nvim
 ```
 
 ## zsh (shell)
+move zshrc into .config and make dir for plugins
+```
+mv ~/dotfiles/zsh ~/.config
 
+mkdir ~/.config/zsh/zplugins
+```
+git clone 3 plugins used
+```
+git clone https://github.com/jeffreytse/zsh-vi-mode.git ~/.config/zsh/zplugins/zsh-vi-mode
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/zplugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugins/zsh-autosuggestions
+```
+/etc/zsh/
+source /path/to/.zprofile -> /etc/zsh/zprofile
+export ZDOTDIR="~/.config/zsh"
 
 ## DWM (window manager)
 the repo Johnsonnn64/iamcahd is my DWM 
