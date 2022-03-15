@@ -29,8 +29,8 @@ git clone https://github.com/jeffreytse/zsh-vi-mode.git ~/.config/zsh/zplugins/z
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/zplugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugins/zsh-autosuggestions
 ```
-/etc/zsh/
-source /path/to/.zprofile -> /etc/zsh/zprofile
+/etc/zsh/</BR>
+source /path/to/.zprofile -> /etc/zsh/zprofile</BR>
 export ZDOTDIR="~/.config/zsh"
 
 ## DWM (window manager)
