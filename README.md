@@ -8,6 +8,7 @@ basically a guide for myself whenever I format my system
   * git
   * nvim
   * zsh
+  * web browser (qutebrowser)
 
 ## nvim (text editor)
 nvim just seems a better choice now. Maybe nano for a backup just in case nvim breaks or even vi </BR>
@@ -42,6 +43,13 @@ cd ~/workspace/suckless/iamchad && sudo make install
 ```
 (note: got to tweak some settings in .xinitrc and ../scripts/autoload to match dir of iamchad)
 
+## dmenu (app launcher)
+```
+git clone https://github.com/Johnsonnn64/gitdmenu ~/workspace/suckless/gitdmenu
+
+cd ~/workspace/suckless/gitdmenu && sudo make install
+```
+
 ## ST (terminal)
 customized ST build of siduck 
 ```
@@ -57,3 +65,22 @@ mkdir ~/.local/bin
 
 mv bin ~/.local/bin
 ```
+
+## breakings
+when things break, just search in the web and fix it. </BR>
+when fixed, document in this README
+
+## to end
+download things like: picom, yay, dunst, discord, taskwarrior, etc. </BR>
+my font: ttf-font-awesome
+         ttf-hanazono (japanese kanji)
+         ttf-joypixels
+         noto-fonts
+         adobe-source-han-sans-jp-fonts
+         adobe-source-han-sans-kr-fonts
+         nerd-fonts-jetbrains-mono (aur)
+         
+### things not written here (for new document)
+         
+### fixes and workarounds
+
