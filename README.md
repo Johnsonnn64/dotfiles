@@ -29,12 +29,11 @@ mv mapper.lua ~/.config/nvim/autoload/plugged/catppuccin/lua/catppuccin/core/map
 mv config.lua ~/.config/nvim/autoload/plugged/catppuccin/lua/catppuccin/config.lua
 ```
 
-## sh (shell)
+## zsh (shell)
 
-git clone 3 plugins used
+git clone 2 plugins used
 
 ```sh
-git clone https://github.com/jeffreytse/zsh-vi-mode.git ~/.config/zsh/zplugins/zsh-vi-mode
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/zplugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugins/zsh-autosuggestions
 ```
