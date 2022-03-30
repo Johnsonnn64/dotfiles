@@ -101,3 +101,4 @@ nerd-fonts-jetbrains-mono (aur)
 ### things not written here (for new document)
 
 ### fixes and workarounds
+
