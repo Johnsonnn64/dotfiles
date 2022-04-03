@@ -159,11 +159,17 @@ config.set('editor.command', ["st", "nvim", "-f", "{file}", "-c", ":call cursor(
 # file selector
 config.set('fileselect.handler', 'external')
 # folder select (xterm ranger)
-config.set('fileselect.folder.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosedir={}"])
-# file select single (xterm ranger) 
-config.set('fileselect.single_file.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosefile={}"])
-# file select multiple (xterm ranger) 
-config.set('fileselect.multiple_files.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosefiles={}"])
+# config.set('fileselect.folder.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosedir={}"])
+# file select single (xterm ranger)
+# config.set('fileselect.single_file.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosefile={}"])
+# file select multiple (xterm ranger)
+# config.set('fileselect.multiple_files.command', ["xterm", "-fa", "JetBrainsMonoMedium Nerd Font", "-fs", "9", "-geometry", "120x30+600+300", "-e", "ranger", "--choosefiles={}"])
+# folder select (st lf)
+config.set('fileselect.folder.command', ["st", "-n", "fcen", "-g", "120x30", "-e", "lfrun", "-last-dir-path={}"])
+# file select single (st lf)
+config.set('fileselect.single_file.command', ["st", "-n", "fcen", "-g", "120x30", "-e", "lfrun", "-selection-path={}"])
+# file select multiple (st lf)
+config.set('fileselect.multiple_files.command', ["st", "-n", "fcen", "-g", "120x30", "-e", "lfrun", "-selection-path={}"])
 
 #fonts
 config.set('fonts.default_family', 'JetBrainsMonoMedium Nerd Font')
@@ -172,7 +178,7 @@ config.set('fonts.default_size', '9pt')
 # Default zoom
 config.set('zoom.default', "80%")
 
-# Start page 
+# Start page
 config.set('url.start_pages', 'https://start.duckduckgo.com')
 
 # focus next
@@ -207,13 +213,13 @@ config.set('colors.tabs.indicator.start', '#81A1C1')
 config.set('colors.tabs.indicator.stop', '#A3BE8C')
 # statusbar bg
 config.set('colors.statusbar.command.bg', '#2E3440')
-# statusbar caret 
+# statusbar caret
 config.set('colors.statusbar.caret.bg', '#B48EAD')
 # statusbar insert
 config.set('colors.statusbar.insert.bg', '#A3BE8C')
 # statusbar normal
 config.set('colors.statusbar.normal.bg', '#191D26')
-# statusbar passthrough 
+# statusbar passthrough
 config.set('colors.statusbar.passthrough.bg', '#81A1C1')
 # status url fg
 config.set('colors.statusbar.url.success.https.fg', '#A3BE8C')
@@ -224,7 +230,7 @@ config.set('colors.statusbar.url.hover.fg', '#88C0D0')
 
 # Height
 config.set('completion.height', '35%')
-# Completion list order 
+# Completion list order
 config.set('completion.open_categories', ["quickmarks", "bookmarks", "history", "searchengines", "filesystem"])
 # Scrollbar (off)
 config.set('completion.scrollbar.width', 0)

@@ -3,6 +3,7 @@
 # zshrc
 #
 
+stty -ixon # disable ctrl-s ctrl-q
 HIST_STAMPS="yyyy/mm/dd"
 HISTFILE="$HOME/.cache/zsh_history"
 HISTSIZE=99999
@@ -20,9 +21,13 @@ setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history 
 setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
 setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
 setopt AUTOCD
+setopt PROMPT_SUBST
 ZPLUGINS=/home/john/.config/zsh/zplugins
+
+# git status
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+eval "$(starship init zsh)"
+#PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}%(!.#.$) "
 
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -35,15 +40,43 @@ bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 
-/home/john/.config/iamchad/scripts/fetch
-alias ls="ls -F --color"
-alias ll="ls -AlFh --color"
+# vi-mode
+bindkey -v
+export KEYTIMEOUT=1
+# Change cursor shape for different vi modes.
+function zle-keymap-select () {
+  case $KEYMAP in
+    vicmd) echo -ne '\e[1 q';;      # block
+    viins|main) echo -ne '\e[5 q';; # beam
+  esac
+}
+zle -N zle-keymap-select
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+# lfcd
+lfcd () {
+  tmp="$(mktemp)"
+  lf -command 'set dironly' -last-dir-path="$tmp" "$@"
+  if [ -f "$tmp" ]; then
+    dir="$(cat "$tmp")"
+    rm -f "$tmp" >/dev/null
+    [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+  fi
+}
+bindkey -s '^o' 'lfcd\n'
+
+~/.config/iamchad/scripts/fetch
+alias ls="ls -F --color --group-directories-first"
+alias ll="ls -AlFh --color --group-directories-first"
 alias p="sudo pacman"
 alias s="sxiv -a" #opens sxiv image viewer
-alias S="sxiv * -a" #opens whole folder with sxiv
+alias S="sxiv * -ta" #opens whole folder with sxiv
 alias gohan="sudo make clean install"
 alias r="ranger"
 alias ka="killall"
+alias lf="lfrun"
+alias g="git"
 
 # 'ls' after every 'cd'
 if ! (( $chpwd_functions[(I)chpwd_cdls] )); then
@@ -57,7 +90,6 @@ function chpwd_cdls() {
 }
 
 # ---------- PLUGINS ----------
-source $ZPLUGINS/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source $ZPLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZPLUGINS/zsh-autosuggestions/zsh-autosuggestions.zsh
 

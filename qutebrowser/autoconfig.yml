@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  tabs.last_close:
-    global: startpage
+  content.notifications.enabled:
+    https://toolbox.iskysoft.com: false

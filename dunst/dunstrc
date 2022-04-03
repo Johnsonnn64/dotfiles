@@ -1,8 +1,6 @@
 [global]
 monitor = 0
-
 follow = mouse
-
 width = 300
 height = 300
 origin = top-center
@@ -47,7 +45,7 @@ browser = /usr/bin/xdg-open
 always_run_script = true
 title = Dunst
 class = Dunst
-corner_radius = 8
+corner_radius = 11
 ignore_dbusclose = false
 force_xwayland = false
 force_xinerama = false

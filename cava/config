@@ -1,0 +1,19 @@
+[general]
+autosens = 0
+sensitivity = 70
+framerate = 60
+
+[intput]
+method = pulse
+source = auto
+
+[output]
+method = ncurses
+
+[color]
+
+[smoothing]
+integral = 80
+monstercat = 0
+waves = 0
+gravity = 69
