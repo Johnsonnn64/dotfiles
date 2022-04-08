@@ -70,13 +70,19 @@ bindkey -s '^o' 'lfcd\n'
 alias ls="ls -F --color --group-directories-first"
 alias ll="ls -AlFh --color --group-directories-first"
 alias p="sudo pacman"
-alias s="sxiv -a" #opens sxiv image viewer
-alias S="sxiv * -ta" #opens whole folder with sxiv
+alias s="nsxiv -a" #opens sxiv image viewer
+alias S="nsxiv * -ta" #opens whole folder with sxiv
 alias gohan="sudo make clean install"
 alias r="ranger"
 alias ka="killall"
 alias lf="lfrun"
 alias g="git"
+alias bat="bat --theme base16"
+alias reboot="sudo reboot"
+alias poweroff="sudo poweroff"
+alias hib="loginctl hibernate"
+alias his="loginctl hybrid-sleep"
+alias repicom="killall picom && sleep 0.1 && picom --experimental-backends -b"
 
 # 'ls' after every 'cd'
 if ! (( $chpwd_functions[(I)chpwd_cdls] )); then

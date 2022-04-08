@@ -2,12 +2,14 @@
 # zprofile
 #
 
-export PATH="$PATH:$HOME/.local/bin"
 export EDITOR="nvim"
+export PATH="$PATH:$HOME/.local/bin"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export SSB_HOME="$XDG_DATA_HOME"/zoom
 export GPG_TTY=$(tty)
 export LESSHISTFILE="-"

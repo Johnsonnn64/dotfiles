@@ -1,9 +1,10 @@
+set ratios 1:2:3
 set icons
-set hidden
 set info size
 set scrolloff 5
 set previewer ~/.config/lf/preview
 set cleaner ~/.config/lf/cleaner
+set hiddenfiles ".git*"
 
 cmd open ${{
 	case $(file --mime-type "$(readlink -f $f)" -b) in
