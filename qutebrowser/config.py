@@ -231,7 +231,7 @@ config.set('colors.statusbar.url.hover.fg', '#88C0D0')
 # Height
 config.set('completion.height', '35%')
 # Completion list order
-config.set('completion.open_categories', ["quickmarks", "bookmarks", "history", "searchengines", "filesystem"])
+config.set('completion.open_categories', ["bookmarks", "quickmarks", "history", "searchengines", "filesystem"])
 # Scrollbar (off)
 config.set('completion.scrollbar.width', 0)
 # CMD history list size
@@ -258,7 +258,19 @@ config.set('spellcheck.languages', ["en-US"])
 config.set('hints.chars', 'asdfjkl')
 
 # Bindings for normal mode
-config.bind('xb', 'config-cycle statusbar.show always never')
-config.bind('xt', 'config-cycle tabs.show always never')
-config.bind('xx', 'config-cycle statusbar.show always never;;config-cycle tabs.show always never')
+config.bind('xb', 'config-cycle statusbar.show never always ')
+config.bind('xt', 'config-cycle tabs.show never always')
+config.bind('xx', 'config-cycle statusbar.show never always;;config-cycle tabs.show never always')
 
+config.set('content.fullscreen.window', True)
+
+# config.set('colors.webpage.darkmode.enabled', True)
+
+config.set('content.autoplay', False)
+
+config.set('hints.find_implementation', 'javascript')
+
+# remove scroll to tabchangeDetails
+config.set('tabs.mousewheel_switching', False)
+
+config.set('downloads.location.directory', '/home/john/personal/')
