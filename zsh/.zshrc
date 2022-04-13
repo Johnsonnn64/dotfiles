@@ -84,6 +84,26 @@ alias hib="loginctl hibernate"
 alias his="loginctl hybrid-sleep"
 alias repicom="killall picom && sleep 0.1 && picom --experimental-backends -b"
 
+# terminal timer/stopwatch
+countdown() {
+    start="$(( $(date '+%s') + $1))"
+    while [ $start -ge $(date +%s) ]; do
+        time="$(( $start - $(date +%s) ))"
+        printf '%s\r' "$(date -u -d "@$time" +%H:%M:%S)"
+        sleep 0.1
+    done
+}
+
+stopwatch() {
+    start=$(date +%s)
+    while true; do
+        time="$(( $(date +%s) - $start))"
+        printf '%s\r' "$(date -u -d "@$time" +%H:%M:%S)"
+        sleep 0.1
+    done
+}
+
+
 # 'ls' after every 'cd'
 if ! (( $chpwd_functions[(I)chpwd_cdls] )); then
   chpwd_functions+=(chpwd_cdls)

@@ -11,6 +11,8 @@ export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export SSB_HOME="$XDG_DATA_HOME"/zoom
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export $(dbus-launch)
 export GPG_TTY=$(tty)
 export LESSHISTFILE="-"
 [ -f ~/.cache/lf/icons ] && source ~/.cache/lf/icons

@@ -11,6 +11,7 @@ basically a guide for myself whenever I format my system
   - nvim
   - zsh
   - web browser (qutebrowser)
+  - brave-bin (optional browser)
 
 ## nvim (text editor)
 
@@ -40,7 +41,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugin
 
 /etc/zsh/</BR>
 source /path/to/.zprofile -> /etc/zsh/zprofile</BR>
-export ZDOTDIR="~/.config/zsh" -> /etc/zsh/zenv
+export ZDOTDIR="~/.config/zsh" -> /etc/zsh/zshenv
 
 ## DWM (window manager)
 
@@ -101,4 +102,19 @@ nerd-fonts-jetbrains-mono (aur)
 ### things not written here (for new document)
 
 ### fixes and workarounds
+youtube-music + playerctl works with
 
+```bash
+export $(dbus-launch)
+```
+in the zprofile </BR>
+</BR>
+
+if in artix, do
+
+```bash
+sudo pacman -S artix-archlinux-support
+sudo pacman-key --populate archlinux
+```
+
+then edit /etc/pacman.d/mirrorlist-arch
