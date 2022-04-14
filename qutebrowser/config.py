@@ -258,9 +258,11 @@ config.set('spellcheck.languages', ["en-US"])
 config.set('hints.chars', 'asdfjkl')
 
 # Bindings for normal mode
+config.bind('z', 'hint links spawn mpv {hint-url}')
 config.bind('xb', 'config-cycle statusbar.show never always ')
 config.bind('xt', 'config-cycle tabs.show never always')
 config.bind('xx', 'config-cycle statusbar.show never always;;config-cycle tabs.show never always')
+config.bind('gD', 'set-cmd-text -s :tab-give ')
 
 config.set('content.fullscreen.window', True)
 
@@ -268,9 +270,14 @@ config.set('content.fullscreen.window', True)
 
 config.set('content.autoplay', False)
 
-config.set('hints.find_implementation', 'javascript')
+# config.set('hints.find_implementation', 'javascript')
 
 # remove scroll to tabchangeDetails
 config.set('tabs.mousewheel_switching', False)
 
 config.set('downloads.location.directory', '/home/john/personal/')
+
+# get notifications from youtube and twitter(if it even works)
+config.set('content.notifications.enabled', True, 'https://www.youtube.com')
+config.set('content.notifications.enabled', True, 'https://www.twitter.com')
+
