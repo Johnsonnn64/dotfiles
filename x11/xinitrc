@@ -1,5 +1,3 @@
-pulseaudio &
-
 xset r rate 270 40
 xset -dpms
 xset s off

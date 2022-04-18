@@ -2,7 +2,7 @@
 while read file
   do
     case "$1" in
-    "w") cp $file ~/personal/pictures/wall.png && hsetroot -fill "$file" ;;
+    "w") cp $file ~/personal/pictures/wall.png && feh --bg-fill --no-fehbg "$file" ;;
     "y")
       echo -n "$file" | tr -d '\n' | xclip -selection clipboard &&
       notify-send "$file copied to clipboard" & ;;

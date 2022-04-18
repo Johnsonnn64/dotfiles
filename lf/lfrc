@@ -29,6 +29,6 @@ cmd open ${{
 }}
 
 map D delete
-map S $sxiv $PWD/* -ta
+map S $nsxiv $PWD/* -ta
 map <c-n> push $mkdir<space>
 map <c-a> push $touch<space>
