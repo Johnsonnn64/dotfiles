@@ -13,6 +13,7 @@ Get 2 plugins from github
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/zplugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/zplugins/zsh-autosuggestions
 ```
+
 source /home/john/.config/zsh/.zprofile -> */etc/zsh/zprofile:*
 
 export ZDOTDIR="/home/john/.config/zsh" -> */etc/zsh/zshenv*
