@@ -63,3 +63,19 @@ HOOKS=(... filesystems 'resume' keyboard ...)
 then do `sudo mkinitcpio -P && sudo update-grub`
 and reboot
 
+## etc...
+use same configurations for root `/etc/passwd`
+```passwd
+root:x:0:0::/home/john:/bin/zsh
+```
+`sudo pacman -S`
+* fonts
+  + noto-fonts
+  + adobe-source-han-sans-jp-fonts
+  + ttf-hanazono
+  + adobe-source-han-sans-kr-fonts
+  + ttf-joypixels
+* dunst
+* picom (picom-jonarburg-fix or picom-fix)
+* qutebrowser
+* brave-bin (aur)
