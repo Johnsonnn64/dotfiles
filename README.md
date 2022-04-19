@@ -61,5 +61,6 @@ and in `/etc/mkinitcpio.conf`
 HOOKS=(... filesystems 'resume' keyboard ...)
 ```
 then do `sudo mkinitcpio -P && sudo update-grub`
+
 and reboot
 
