@@ -64,7 +64,14 @@ then do `sudo mkinitcpio -P && sudo update-grub`
 
 and reboot
 
+## Dual booting
+need ntfs-3g to read the bootable of windows efi
+
 ## etc...
+for permanent xset r rate `/etc/X11/xinit/xserverrc`
+```sh
+exec /usr/bin/X -nolisten tcp -ardelay 270 -arinterval 25 "$@"
+```
 use same configurations for root `/etc/passwd`
 ```passwd
 root:x:0:0::/home/john:/bin/zsh
