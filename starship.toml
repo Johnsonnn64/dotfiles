@@ -6,17 +6,23 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$cmd_duration
 $character
 """
 
+right_format = """[desktop ](purple)\
+$cmd_duration"""
+
 [character]
-success_symbol = "[](bold green)"
+success_symbol = "[❯](bold green)"
 error_symbol = "[✗](bold red) "
 
 [directory]
 truncation_length = 99
 truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+format = 'on [$symbol $branch ](bold purple)'
 
 [git_status]
 staged = '++\($count\)'

@@ -66,7 +66,7 @@ lfcd () {
 }
 bindkey -s '^o' 'lfcd\n'
 
-~/.config/iamchad/scripts/fetch
+~/workspace/suckless/dwm/scripts/fetch
 alias ls="ls -F --color --group-directories-first"
 alias ll="ls -AlFh --color --group-directories-first"
 alias p="sudo pacman"
