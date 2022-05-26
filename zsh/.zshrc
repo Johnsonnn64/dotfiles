@@ -64,7 +64,7 @@ lfcd () {
     [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
   fi
 }
-bindkey -s '^o' 'lfcd\n'
+bindkey -s '^o' '^ulfcd\n'
 
 ~/workspace/suckless/dwm/scripts/fetch
 alias ls="ls -F --color --group-directories-first"
@@ -72,8 +72,6 @@ alias ll="ls -AlFh --color --group-directories-first"
 alias p="sudo pacman"
 alias s="nsxiv -a" #opens sxiv image viewer
 alias S="nsxiv * -ta" #opens whole folder with sxiv
-alias gohan="sudo make clean install"
-alias r="ranger"
 alias ka="killall"
 alias lf="lfrun"
 alias g="git"
@@ -82,7 +80,6 @@ alias reboot="sudo reboot"
 alias poweroff="sudo poweroff"
 alias hib="loginctl hibernate"
 alias his="loginctl hybrid-sleep"
-alias repicom="killall picom && sleep 0.1 && picom --experimental-backends -b"
 
 # terminal timer/stopwatch
 countdown() {
@@ -102,7 +99,6 @@ stopwatch() {
         sleep 0.1
     done
 }
-
 
 # 'ls' after every 'cd'
 if ! (( $chpwd_functions[(I)chpwd_cdls] )); then
